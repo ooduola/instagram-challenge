@@ -703,3 +703,556 @@ Processing by PostsController#new as HTML
 [Webpacker] Everything's up-to-date. Nothing to do
 Completed 200 OK in 34ms (Views: 19.6ms | ActiveRecord: 6.6ms | Allocations: 19822)
   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2020-07-06 23:38:49 +0100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 28.1ms | ActiveRecord: 0.0ms | Allocations: 11061)
+Started GET "/posts/new" for 127.0.0.1 at 2020-07-06 23:38:49 +0100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 17.9ms | Allocations: 14027)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 19.6ms | ActiveRecord: 4.1ms | Allocations: 19820)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2020-07-06 23:40:58 +0100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 55ms (Views: 50.8ms | ActiveRecord: 0.0ms | Allocations: 11071)
+Started GET "/posts/new" for 127.0.0.1 at 2020-07-06 23:40:58 +0100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 17.9ms | Allocations: 14029)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 19.4ms | ActiveRecord: 6.4ms | Allocations: 19822)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2020-07-06 23:50:25 +0100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 30.6ms | ActiveRecord: 0.0ms | Allocations: 11106)
+Started GET "/posts/new" for 127.0.0.1 at 2020-07-06 23:50:25 +0100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 22.2ms | Allocations: 14029)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 21.6ms | ActiveRecord: 6.7ms | Allocations: 19822)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2020-07-06 23:50:58 +0100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 29.8ms | ActiveRecord: 0.0ms | Allocations: 11131)
+Started GET "/posts/new" for 127.0.0.1 at 2020-07-06 23:50:58 +0100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 17.4ms | Allocations: 14029)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 19.5ms | ActiveRecord: 4.7ms | Allocations: 19822)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2020-07-06 23:51:17 +0100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 30.2ms | ActiveRecord: 0.0ms | Allocations: 11161)
+Started GET "/posts/new" for 127.0.0.1 at 2020-07-06 23:51:17 +0100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 19.3ms | Allocations: 14029)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 21.0ms | ActiveRecord: 5.9ms | Allocations: 19822)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2020-07-06 23:56:07 +0100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 46.7ms | ActiveRecord: 0.0ms | Allocations: 11211)
+Started GET "/posts/new" for 127.0.0.1 at 2020-07-06 23:56:07 +0100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 20.2ms | Allocations: 14029)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 20.6ms | ActiveRecord: 6.4ms | Allocations: 19822)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2020-07-06 23:56:45 +0100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 31.8ms | ActiveRecord: 0.0ms | Allocations: 11221)
+Started GET "/posts/new" for 127.0.0.1 at 2020-07-06 23:56:45 +0100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 17.8ms | Allocations: 14029)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 19.7ms | ActiveRecord: 4.2ms | Allocations: 19822)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2020-07-06 23:57:37 +0100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 29.9ms | ActiveRecord: 0.0ms | Allocations: 11256)
+Started GET "/posts/new" for 127.0.0.1 at 2020-07-06 23:57:37 +0100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 16.8ms | Allocations: 14027)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 18.4ms | ActiveRecord: 4.8ms | Allocations: 19820)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2020-07-07 00:00:45 +0100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 34.2ms | ActiveRecord: 0.0ms | Allocations: 11296)
+Started GET "/posts/new" for 127.0.0.1 at 2020-07-07 00:00:45 +0100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 17.2ms | Allocations: 14029)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 18.9ms | ActiveRecord: 4.1ms | Allocations: 19822)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2020-07-07 00:01:50 +0100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 30.1ms | ActiveRecord: 0.0ms | Allocations: 11326)
+Started GET "/posts/new" for 127.0.0.1 at 2020-07-07 00:01:50 +0100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 16.4ms | Allocations: 14029)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 17.8ms | ActiveRecord: 6.1ms | Allocations: 19822)
+Started POST "/posts" for 127.0.0.1 at 2020-07-07 00:01:50 +0100
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x00007feecfad8a48 @tempfile=#<Tempfile:/var/folders/xy/sn003gcj4tlgdp6lgr_l2zsw000gpb/T/RackMultipart20200707-31772-1nkbdh7.jpg>, @original_filename="thomas.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"post[image]\"; filename=\"thomas.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Length: 141480\r\n">, "caption"=>"#thomas"}, "button"=>""}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mPost Create (42.3ms)[0m  [1m[32mINSERT INTO "posts" ("caption", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["caption", "#thomas"], ["created_at", "2020-07-06 23:01:50.313484"], ["updated_at", "2020-07-06 23:01:50.313484"]]
+  [1m[36mActiveStorage::Blob Load (0.5ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" INNER JOIN "active_storage_attachments" ON "active_storage_blobs"."id" = "active_storage_attachments"."blob_id" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Blob Create (42.0ms)[0m  [1m[32mINSERT INTO "active_storage_blobs" ("key", "filename", "content_type", "metadata", "byte_size", "checksum", "created_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["key", "os4ecbdmdlsrlqc6fopmu96migl4"], ["filename", "thomas.jpg"], ["content_type", "image/jpeg"], ["metadata", "{\"identified\":true}"], ["byte_size", 141480], ["checksum", "VNwgQ701g08lAf6mg6BZgA=="], ["created_at", "2020-07-06 23:01:50.386395"]]
+  [1m[36mActiveStorage::Attachment Create (0.9ms)[0m  [1m[32mINSERT INTO "active_storage_attachments" ("name", "record_type", "record_id", "blob_id", "created_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "image"], ["record_type", "Post"], ["record_id", 1], ["blob_id", 1], ["created_at", "2020-07-06 23:01:50.429528"]]
+  [1m[36mPost Update (0.3ms)[0m  [1m[33mUPDATE "posts" SET "updated_at" = $1 WHERE "posts"."id" = $2[0m  [["updated_at", "2020-07-06 23:01:50.431247"], ["id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+[36m  Disk Storage (3.0ms) [0m[32mUploaded file to key: os4ecbdmdlsrlqc6fopmu96migl4 (checksum: VNwgQ701g08lAf6mg6BZgA==)[0m
+[ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: 42eac79f-dc75-4e91-adbb-2eac97ca714a) to Async(active_storage_analysis) with arguments: #<GlobalID:0x00007feecc972968 @uri=#<URI::GID gid://instagram/ActiveStorage::Blob/1>>
+Redirected to http://www.example.com/posts/1
+Completed 302 Found in 126ms (ActiveRecord: 89.2ms | Allocations: 31269)
+Started GET "/posts/1" for 127.0.0.1 at 2020-07-07 00:01:50 +0100
+  [1m[36mActiveStorage::Blob Load (0.3ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [42eac79f-dc75-4e91-adbb-2eac97ca714a] Performing ActiveStorage::AnalyzeJob (Job ID: 42eac79f-dc75-4e91-adbb-2eac97ca714a) from Async(active_storage_analysis) enqueued at 2020-07-06T23:01:50Z with arguments: #<GlobalID:0x00007feecf9214c0 @uri=#<URI::GID gid://instagram/ActiveStorage::Blob/1>>
+[ActiveJob] [ActiveStorage::AnalyzeJob] [42eac79f-dc75-4e91-adbb-2eac97ca714a] [36m  Disk Storage (1.3ms) [0m[34mDownloaded file from key: os4ecbdmdlsrlqc6fopmu96migl4[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [42eac79f-dc75-4e91-adbb-2eac97ca714a] Skipping image analysis because the mini_magick gem isn't installed
+[ActiveJob] [ActiveStorage::AnalyzeJob] [42eac79f-dc75-4e91-adbb-2eac97ca714a]   [1m[35m (1.7ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [42eac79f-dc75-4e91-adbb-2eac97ca714a]   [1m[36mActiveStorage::Blob Update (0.3ms)[0m  [1m[33mUPDATE "active_storage_blobs" SET "metadata" = $1 WHERE "active_storage_blobs"."id" = $2[0m  [["metadata", "{\"identified\":true,\"analyzed\":true}"], ["id", 1]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [42eac79f-dc75-4e91-adbb-2eac97ca714a]   [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [42eac79f-dc75-4e91-adbb-2eac97ca714a] Performed ActiveStorage::AnalyzeJob (Job ID: 42eac79f-dc75-4e91-adbb-2eac97ca714a) from Async(active_storage_analysis) in 5.9ms
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2020-07-07 00:02:16 +0100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 30.0ms | ActiveRecord: 0.0ms | Allocations: 11346)
+Started GET "/posts/new" for 127.0.0.1 at 2020-07-07 00:02:16 +0100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 17.4ms | Allocations: 14029)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 19.0ms | ActiveRecord: 5.0ms | Allocations: 19822)
+Started POST "/posts" for 127.0.0.1 at 2020-07-07 00:02:16 +0100
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x00007fe87bb77ad0 @tempfile=#<Tempfile:/var/folders/xy/sn003gcj4tlgdp6lgr_l2zsw000gpb/T/RackMultipart20200707-31806-wtruzx.jpg>, @original_filename="thomas.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"post[image]\"; filename=\"thomas.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Length: 141480\r\n">, "caption"=>"#thomas"}, "button"=>""}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("caption", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["caption", "#thomas"], ["created_at", "2020-07-06 23:02:16.146758"], ["updated_at", "2020-07-06 23:02:16.146758"]]
+  [1m[36mActiveStorage::Blob Load (0.6ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" INNER JOIN "active_storage_attachments" ON "active_storage_blobs"."id" = "active_storage_attachments"."blob_id" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 2], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (0.4ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 2], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Blob Create (0.3ms)[0m  [1m[32mINSERT INTO "active_storage_blobs" ("key", "filename", "content_type", "metadata", "byte_size", "checksum", "created_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["key", "75eyguy8s6n5imb901tkwj2am9d0"], ["filename", "thomas.jpg"], ["content_type", "image/jpeg"], ["metadata", "{\"identified\":true}"], ["byte_size", 141480], ["checksum", "VNwgQ701g08lAf6mg6BZgA=="], ["created_at", "2020-07-06 23:02:16.174529"]]
+  [1m[36mActiveStorage::Attachment Create (0.5ms)[0m  [1m[32mINSERT INTO "active_storage_attachments" ("name", "record_type", "record_id", "blob_id", "created_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "image"], ["record_type", "Post"], ["record_id", 2], ["blob_id", 2], ["created_at", "2020-07-06 23:02:16.175900"]]
+  [1m[36mPost Update (0.4ms)[0m  [1m[33mUPDATE "posts" SET "updated_at" = $1 WHERE "posts"."id" = $2[0m  [["updated_at", "2020-07-06 23:02:16.177254"], ["id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+[36m  Disk Storage (1.2ms) [0m[32mUploaded file to key: 75eyguy8s6n5imb901tkwj2am9d0 (checksum: VNwgQ701g08lAf6mg6BZgA==)[0m
+[ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: f6124b03-d1e7-4e12-929b-906561713d77) to Async(active_storage_analysis) with arguments: #<GlobalID:0x00007fe87eab2318 @uri=#<URI::GID gid://instagram/ActiveStorage::Blob/2>>
+Redirected to http://www.example.com/posts/2
+Completed 302 Found in 37ms (ActiveRecord: 5.6ms | Allocations: 31269)
+Started GET "/posts/2" for 127.0.0.1 at 2020-07-07 00:02:16 +0100
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [f6124b03-d1e7-4e12-929b-906561713d77] Performing ActiveStorage::AnalyzeJob (Job ID: f6124b03-d1e7-4e12-929b-906561713d77) from Async(active_storage_analysis) enqueued at 2020-07-06T23:02:16Z with arguments: #<GlobalID:0x00007fe87b5d4e98 @uri=#<URI::GID gid://instagram/ActiveStorage::Blob/2>>
+[ActiveJob] [ActiveStorage::AnalyzeJob] [f6124b03-d1e7-4e12-929b-906561713d77] [36m  Disk Storage (1.9ms) [0m[34mDownloaded file from key: 75eyguy8s6n5imb901tkwj2am9d0[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [f6124b03-d1e7-4e12-929b-906561713d77] Skipping image analysis because the mini_magick gem isn't installed
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+[ActiveJob] [ActiveStorage::AnalyzeJob] [f6124b03-d1e7-4e12-929b-906561713d77]   [1m[35m (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [f6124b03-d1e7-4e12-929b-906561713d77]   [1m[36mActiveStorage::Blob Update (0.8ms)[0m  [1m[33mUPDATE "active_storage_blobs" SET "metadata" = $1 WHERE "active_storage_blobs"."id" = $2[0m  [["metadata", "{\"identified\":true,\"analyzed\":true}"], ["id", 2]]
+Completed 406 Not Acceptable in 2ms (ActiveRecord: 0.0ms | Allocations: 1682)
+[ActiveJob] [ActiveStorage::AnalyzeJob] [f6124b03-d1e7-4e12-929b-906561713d77]   [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [f6124b03-d1e7-4e12-929b-906561713d77] Performed ActiveStorage::AnalyzeJob (Job ID: f6124b03-d1e7-4e12-929b-906561713d77) from Async(active_storage_analysis) in 7.33ms
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2020-07-07 00:02:29 +0100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 29.0ms | ActiveRecord: 0.0ms | Allocations: 11376)
+Started GET "/posts/new" for 127.0.0.1 at 2020-07-07 00:02:29 +0100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 17.2ms | Allocations: 14029)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 18.7ms | ActiveRecord: 4.0ms | Allocations: 19822)
+Started POST "/posts" for 127.0.0.1 at 2020-07-07 00:02:29 +0100
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x00007fc9fb3b7a78 @tempfile=#<Tempfile:/var/folders/xy/sn003gcj4tlgdp6lgr_l2zsw000gpb/T/RackMultipart20200707-31835-1gif8j8.jpg>, @original_filename="thomas.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"post[image]\"; filename=\"thomas.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Length: 141480\r\n">, "caption"=>"#thomas"}, "button"=>""}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mPost Create (0.5ms)[0m  [1m[32mINSERT INTO "posts" ("caption", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["caption", "#thomas"], ["created_at", "2020-07-06 23:02:29.153553"], ["updated_at", "2020-07-06 23:02:29.153553"]]
+  [1m[36mActiveStorage::Blob Load (0.5ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" INNER JOIN "active_storage_attachments" ON "active_storage_blobs"."id" = "active_storage_attachments"."blob_id" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 3], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 3], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Blob Create (0.3ms)[0m  [1m[32mINSERT INTO "active_storage_blobs" ("key", "filename", "content_type", "metadata", "byte_size", "checksum", "created_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["key", "mbrdu3har5rto82mkktdc96u2t43"], ["filename", "thomas.jpg"], ["content_type", "image/jpeg"], ["metadata", "{\"identified\":true}"], ["byte_size", 141480], ["checksum", "VNwgQ701g08lAf6mg6BZgA=="], ["created_at", "2020-07-06 23:02:29.180430"]]
+  [1m[36mActiveStorage::Attachment Create (0.4ms)[0m  [1m[32mINSERT INTO "active_storage_attachments" ("name", "record_type", "record_id", "blob_id", "created_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "image"], ["record_type", "Post"], ["record_id", 3], ["blob_id", 3], ["created_at", "2020-07-06 23:02:29.181497"]]
+  [1m[36mPost Update (0.3ms)[0m  [1m[33mUPDATE "posts" SET "updated_at" = $1 WHERE "posts"."id" = $2[0m  [["updated_at", "2020-07-06 23:02:29.182276"], ["id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+[36m  Disk Storage (1.2ms) [0m[32mUploaded file to key: mbrdu3har5rto82mkktdc96u2t43 (checksum: VNwgQ701g08lAf6mg6BZgA==)[0m
+[ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: ecaf6ce1-3db2-419b-850d-763f1493c37d) to Async(active_storage_analysis) with arguments: #<GlobalID:0x00007fc9fba31db8 @uri=#<URI::GID gid://instagram/ActiveStorage::Blob/3>>
+Redirected to http://www.example.com/posts/3
+Completed 302 Found in 34ms (ActiveRecord: 5.2ms | Allocations: 31279)
+Started GET "/posts/3" for 127.0.0.1 at 2020-07-07 00:02:29 +0100
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mActiveStorage::Blob Load (0.6ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+[ActiveJob] [ActiveStorage::AnalyzeJob] [ecaf6ce1-3db2-419b-850d-763f1493c37d] Performing ActiveStorage::AnalyzeJob (Job ID: ecaf6ce1-3db2-419b-850d-763f1493c37d) from Async(active_storage_analysis) enqueued at 2020-07-06T23:02:29Z with arguments: #<GlobalID:0x00007fc9f6c0ad10 @uri=#<URI::GID gid://instagram/ActiveStorage::Blob/3>>
+  Rendered posts/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 353)
+[ActiveJob] [ActiveStorage::AnalyzeJob] [ecaf6ce1-3db2-419b-850d-763f1493c37d] [36m  Disk Storage (1.5ms) [0m[34mDownloaded file from key: mbrdu3har5rto82mkktdc96u2t43[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [ecaf6ce1-3db2-419b-850d-763f1493c37d] Skipping image analysis because the mini_magick gem isn't installed
+[ActiveJob] [ActiveStorage::AnalyzeJob] [ecaf6ce1-3db2-419b-850d-763f1493c37d]   [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [ecaf6ce1-3db2-419b-850d-763f1493c37d]   [1m[36mActiveStorage::Blob Update (0.2ms)[0m  [1m[33mUPDATE "active_storage_blobs" SET "metadata" = $1 WHERE "active_storage_blobs"."id" = $2[0m  [["metadata", "{\"identified\":true,\"analyzed\":true}"], ["id", 3]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [ecaf6ce1-3db2-419b-850d-763f1493c37d]   [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [ecaf6ce1-3db2-419b-850d-763f1493c37d] Performed ActiveStorage::AnalyzeJob (Job ID: ecaf6ce1-3db2-419b-850d-763f1493c37d) from Async(active_storage_analysis) in 5.62ms
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 3514)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2020-07-07 00:03:09 +0100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 33.3ms | ActiveRecord: 0.0ms | Allocations: 11401)
+Started GET "/posts/new" for 127.0.0.1 at 2020-07-07 00:03:09 +0100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 17.1ms | Allocations: 14030)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 18.7ms | ActiveRecord: 4.4ms | Allocations: 19823)
+Started POST "/posts" for 127.0.0.1 at 2020-07-07 00:03:09 +0100
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x00007fd38e96f528 @tempfile=#<Tempfile:/var/folders/xy/sn003gcj4tlgdp6lgr_l2zsw000gpb/T/RackMultipart20200707-31867-1fu7nwb.jpg>, @original_filename="thomas.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"post[image]\"; filename=\"thomas.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Length: 141480\r\n">, "caption"=>"#thomas"}, "button"=>""}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("caption", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["caption", "#thomas"], ["created_at", "2020-07-06 23:03:09.268280"], ["updated_at", "2020-07-06 23:03:09.268280"]]
+  [1m[36mActiveStorage::Blob Load (0.6ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" INNER JOIN "active_storage_attachments" ON "active_storage_blobs"."id" = "active_storage_attachments"."blob_id" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 4], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 4], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Blob Create (0.3ms)[0m  [1m[32mINSERT INTO "active_storage_blobs" ("key", "filename", "content_type", "metadata", "byte_size", "checksum", "created_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["key", "7kir10wxbry9mqv25qjm53yc7a8f"], ["filename", "thomas.jpg"], ["content_type", "image/jpeg"], ["metadata", "{\"identified\":true}"], ["byte_size", 141480], ["checksum", "VNwgQ701g08lAf6mg6BZgA=="], ["created_at", "2020-07-06 23:03:09.294816"]]
+  [1m[36mActiveStorage::Attachment Create (0.4ms)[0m  [1m[32mINSERT INTO "active_storage_attachments" ("name", "record_type", "record_id", "blob_id", "created_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "image"], ["record_type", "Post"], ["record_id", 4], ["blob_id", 4], ["created_at", "2020-07-06 23:03:09.295863"]]
+  [1m[36mPost Update (0.3ms)[0m  [1m[33mUPDATE "posts" SET "updated_at" = $1 WHERE "posts"."id" = $2[0m  [["updated_at", "2020-07-06 23:03:09.296700"], ["id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+[36m  Disk Storage (1.1ms) [0m[32mUploaded file to key: 7kir10wxbry9mqv25qjm53yc7a8f (checksum: VNwgQ701g08lAf6mg6BZgA==)[0m
+[ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: e2f8119a-475f-4225-a70b-6a36d2784a3f) to Async(active_storage_analysis) with arguments: #<GlobalID:0x00007fd38dbf95b0 @uri=#<URI::GID gid://instagram/ActiveStorage::Blob/4>>
+Redirected to http://www.example.com/posts/4
+Completed 302 Found in 33ms (ActiveRecord: 5.2ms | Allocations: 31274)
+Started GET "/posts/4" for 127.0.0.1 at 2020-07-07 00:03:09 +0100
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mActiveStorage::Blob Load (0.8ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+[ActiveJob] [ActiveStorage::AnalyzeJob] [e2f8119a-475f-4225-a70b-6a36d2784a3f] Performing ActiveStorage::AnalyzeJob (Job ID: e2f8119a-475f-4225-a70b-6a36d2784a3f) from Async(active_storage_analysis) enqueued at 2020-07-06T23:03:09Z with arguments: #<GlobalID:0x00007fd38ac08a90 @uri=#<URI::GID gid://instagram/ActiveStorage::Blob/4>>
+  Rendered posts/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1338)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1862)
+  [1m[35m (9.8ms)[0m  [1m[31mROLLBACK[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [e2f8119a-475f-4225-a70b-6a36d2784a3f] [36m  Disk Storage (17.3ms) [0m[34mDownloaded file from key: 7kir10wxbry9mqv25qjm53yc7a8f[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [e2f8119a-475f-4225-a70b-6a36d2784a3f] Skipping image analysis because the mini_magick gem isn't installed
+[ActiveJob] [ActiveStorage::AnalyzeJob] [e2f8119a-475f-4225-a70b-6a36d2784a3f]   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [e2f8119a-475f-4225-a70b-6a36d2784a3f]   [1m[36mActiveStorage::Blob Update (0.9ms)[0m  [1m[33mUPDATE "active_storage_blobs" SET "metadata" = $1 WHERE "active_storage_blobs"."id" = $2[0m  [["metadata", "{\"identified\":true,\"analyzed\":true}"], ["id", 4]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [e2f8119a-475f-4225-a70b-6a36d2784a3f]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [e2f8119a-475f-4225-a70b-6a36d2784a3f] Performed ActiveStorage::AnalyzeJob (Job ID: e2f8119a-475f-4225-a70b-6a36d2784a3f) from Async(active_storage_analysis) in 32.86ms
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2020-07-07 00:03:30 +0100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 29.5ms | ActiveRecord: 0.0ms | Allocations: 11436)
+Started GET "/posts/new" for 127.0.0.1 at 2020-07-07 00:03:30 +0100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 17.8ms | Allocations: 14029)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 19.9ms | ActiveRecord: 5.8ms | Allocations: 19822)
+Started POST "/posts" for 127.0.0.1 at 2020-07-07 00:03:30 +0100
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x00007f869f3e5f30 @tempfile=#<Tempfile:/var/folders/xy/sn003gcj4tlgdp6lgr_l2zsw000gpb/T/RackMultipart20200707-31908-n0ei7i.jpg>, @original_filename="thomas.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"post[image]\"; filename=\"thomas.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Length: 141480\r\n">, "caption"=>"#thomas"}, "button"=>""}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("caption", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["caption", "#thomas"], ["created_at", "2020-07-06 23:03:30.899050"], ["updated_at", "2020-07-06 23:03:30.899050"]]
+  [1m[36mActiveStorage::Blob Load (0.5ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" INNER JOIN "active_storage_attachments" ON "active_storage_blobs"."id" = "active_storage_attachments"."blob_id" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 5], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 5], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Blob Create (0.3ms)[0m  [1m[32mINSERT INTO "active_storage_blobs" ("key", "filename", "content_type", "metadata", "byte_size", "checksum", "created_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["key", "7a22a3u8vdniq621dvncluw397cg"], ["filename", "thomas.jpg"], ["content_type", "image/jpeg"], ["metadata", "{\"identified\":true}"], ["byte_size", 141480], ["checksum", "VNwgQ701g08lAf6mg6BZgA=="], ["created_at", "2020-07-06 23:03:30.929985"]]
+  [1m[36mActiveStorage::Attachment Create (0.4ms)[0m  [1m[32mINSERT INTO "active_storage_attachments" ("name", "record_type", "record_id", "blob_id", "created_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "image"], ["record_type", "Post"], ["record_id", 5], ["blob_id", 5], ["created_at", "2020-07-06 23:03:30.931025"]]
+  [1m[36mPost Update (0.3ms)[0m  [1m[33mUPDATE "posts" SET "updated_at" = $1 WHERE "posts"."id" = $2[0m  [["updated_at", "2020-07-06 23:03:30.931831"], ["id", 5]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+[36m  Disk Storage (1.1ms) [0m[32mUploaded file to key: 7a22a3u8vdniq621dvncluw397cg (checksum: VNwgQ701g08lAf6mg6BZgA==)[0m
+[ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: 9520a15d-9409-43c2-86f4-aa200775ebee) to Async(active_storage_analysis) with arguments: #<GlobalID:0x00007f86a31b47a8 @uri=#<URI::GID gid://instagram/ActiveStorage::Blob/5>>
+Redirected to http://www.example.com/posts/5
+Completed 302 Found in 39ms (ActiveRecord: 5.1ms | Allocations: 31273)
+Started GET "/posts/5" for 127.0.0.1 at 2020-07-07 00:03:30 +0100
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mActiveStorage::Blob Load (0.9ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [9520a15d-9409-43c2-86f4-aa200775ebee] Performing ActiveStorage::AnalyzeJob (Job ID: 9520a15d-9409-43c2-86f4-aa200775ebee) from Async(active_storage_analysis) enqueued at 2020-07-06T23:03:30Z with arguments: #<GlobalID:0x00007f869f253ed8 @uri=#<URI::GID gid://instagram/ActiveStorage::Blob/5>>
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1132)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 1868)
+[ActiveJob] [ActiveStorage::AnalyzeJob] [9520a15d-9409-43c2-86f4-aa200775ebee] [36m  Disk Storage (21.2ms) [0m[34mDownloaded file from key: 7a22a3u8vdniq621dvncluw397cg[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [9520a15d-9409-43c2-86f4-aa200775ebee] Skipping image analysis because the mini_magick gem isn't installed
+[ActiveJob] [ActiveStorage::AnalyzeJob] [9520a15d-9409-43c2-86f4-aa200775ebee]   [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [9520a15d-9409-43c2-86f4-aa200775ebee]   [1m[36mActiveStorage::Blob Update (3.5ms)[0m  [1m[33mUPDATE "active_storage_blobs" SET "metadata" = $1 WHERE "active_storage_blobs"."id" = $2[0m  [["metadata", "{\"identified\":true,\"analyzed\":true}"], ["id", 5]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [9520a15d-9409-43c2-86f4-aa200775ebee]   [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [9520a15d-9409-43c2-86f4-aa200775ebee] Performed ActiveStorage::AnalyzeJob (Job ID: 9520a15d-9409-43c2-86f4-aa200775ebee) from Async(active_storage_analysis) in 38.43ms
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2020-07-07 00:03:41 +0100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 26.7ms | ActiveRecord: 0.0ms | Allocations: 11466)
+Started GET "/posts/new" for 127.0.0.1 at 2020-07-07 00:03:41 +0100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 20.9ms | Allocations: 14030)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 23.2ms | ActiveRecord: 4.2ms | Allocations: 19823)
+Started POST "/posts" for 127.0.0.1 at 2020-07-07 00:03:41 +0100
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x00007fd5d533d238 @tempfile=#<Tempfile:/var/folders/xy/sn003gcj4tlgdp6lgr_l2zsw000gpb/T/RackMultipart20200707-31933-19yccxx.jpg>, @original_filename="thomas.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"post[image]\"; filename=\"thomas.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Length: 141480\r\n">, "caption"=>"#thomas"}, "button"=>""}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mPost Create (0.6ms)[0m  [1m[32mINSERT INTO "posts" ("caption", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["caption", "#thomas"], ["created_at", "2020-07-06 23:03:41.837598"], ["updated_at", "2020-07-06 23:03:41.837598"]]
+  [1m[36mActiveStorage::Blob Load (0.5ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" INNER JOIN "active_storage_attachments" ON "active_storage_blobs"."id" = "active_storage_attachments"."blob_id" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 6], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 6], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Blob Create (0.3ms)[0m  [1m[32mINSERT INTO "active_storage_blobs" ("key", "filename", "content_type", "metadata", "byte_size", "checksum", "created_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["key", "frbay1k6rdths9w9zxqf2ngc0s21"], ["filename", "thomas.jpg"], ["content_type", "image/jpeg"], ["metadata", "{\"identified\":true}"], ["byte_size", 141480], ["checksum", "VNwgQ701g08lAf6mg6BZgA=="], ["created_at", "2020-07-06 23:03:41.868694"]]
+  [1m[36mActiveStorage::Attachment Create (0.4ms)[0m  [1m[32mINSERT INTO "active_storage_attachments" ("name", "record_type", "record_id", "blob_id", "created_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "image"], ["record_type", "Post"], ["record_id", 6], ["blob_id", 6], ["created_at", "2020-07-06 23:03:41.869848"]]
+  [1m[36mPost Update (0.3ms)[0m  [1m[33mUPDATE "posts" SET "updated_at" = $1 WHERE "posts"."id" = $2[0m  [["updated_at", "2020-07-06 23:03:41.870857"], ["id", 6]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+[36m  Disk Storage (1.1ms) [0m[32mUploaded file to key: frbay1k6rdths9w9zxqf2ngc0s21 (checksum: VNwgQ701g08lAf6mg6BZgA==)[0m
+[ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: 57ddcdbf-2ee8-4642-8d18-18a9f08d5750) to Async(active_storage_analysis) with arguments: #<GlobalID:0x00007fd5d2efb0f0 @uri=#<URI::GID gid://instagram/ActiveStorage::Blob/6>>
+Redirected to http://www.example.com/posts/6
+Completed 302 Found in 38ms (ActiveRecord: 6.2ms | Allocations: 31273)
+Started GET "/posts/6" for 127.0.0.1 at 2020-07-07 00:03:41 +0100
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Blob Load (1.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [57ddcdbf-2ee8-4642-8d18-18a9f08d5750] Performing ActiveStorage::AnalyzeJob (Job ID: 57ddcdbf-2ee8-4642-8d18-18a9f08d5750) from Async(active_storage_analysis) enqueued at 2020-07-06T23:03:41Z with arguments: #<GlobalID:0x00007fd5d1d36338 @uri=#<URI::GID gid://instagram/ActiveStorage::Blob/6>>
+  Rendered posts/show.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1298)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1862)
+  [1m[35m (10.6ms)[0m  [1m[31mROLLBACK[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [57ddcdbf-2ee8-4642-8d18-18a9f08d5750] [36m  Disk Storage (17.2ms) [0m[34mDownloaded file from key: frbay1k6rdths9w9zxqf2ngc0s21[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [57ddcdbf-2ee8-4642-8d18-18a9f08d5750] Skipping image analysis because the mini_magick gem isn't installed
+[ActiveJob] [ActiveStorage::AnalyzeJob] [57ddcdbf-2ee8-4642-8d18-18a9f08d5750]   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [57ddcdbf-2ee8-4642-8d18-18a9f08d5750]   [1m[36mActiveStorage::Blob Update (0.9ms)[0m  [1m[33mUPDATE "active_storage_blobs" SET "metadata" = $1 WHERE "active_storage_blobs"."id" = $2[0m  [["metadata", "{\"identified\":true,\"analyzed\":true}"], ["id", 6]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [57ddcdbf-2ee8-4642-8d18-18a9f08d5750]   [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [57ddcdbf-2ee8-4642-8d18-18a9f08d5750] Performed ActiveStorage::AnalyzeJob (Job ID: 57ddcdbf-2ee8-4642-8d18-18a9f08d5750) from Async(active_storage_analysis) in 31.96ms
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2020-07-07 00:04:28 +0100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 27.2ms | ActiveRecord: 0.0ms | Allocations: 11496)
+Started GET "/posts/new" for 127.0.0.1 at 2020-07-07 00:04:28 +0100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 17.5ms | Allocations: 14029)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 19.0ms | ActiveRecord: 4.8ms | Allocations: 19822)
+Started POST "/posts" for 127.0.0.1 at 2020-07-07 00:04:28 +0100
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x00007fb5b43f8f10 @tempfile=#<Tempfile:/var/folders/xy/sn003gcj4tlgdp6lgr_l2zsw000gpb/T/RackMultipart20200707-31970-fgkim9.jpg>, @original_filename="thomas.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"post[image]\"; filename=\"thomas.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Length: 141480\r\n">, "caption"=>"#thomas"}, "button"=>""}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("caption", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["caption", "#thomas"], ["created_at", "2020-07-06 23:04:28.843218"], ["updated_at", "2020-07-06 23:04:28.843218"]]
+  [1m[36mActiveStorage::Blob Load (0.6ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" INNER JOIN "active_storage_attachments" ON "active_storage_blobs"."id" = "active_storage_attachments"."blob_id" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 7], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 7], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Blob Create (0.3ms)[0m  [1m[32mINSERT INTO "active_storage_blobs" ("key", "filename", "content_type", "metadata", "byte_size", "checksum", "created_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["key", "p3t0u6qhdq4jwd3skkm8wwrjuymz"], ["filename", "thomas.jpg"], ["content_type", "image/jpeg"], ["metadata", "{\"identified\":true}"], ["byte_size", 141480], ["checksum", "VNwgQ701g08lAf6mg6BZgA=="], ["created_at", "2020-07-06 23:04:28.869575"]]
+  [1m[36mActiveStorage::Attachment Create (0.4ms)[0m  [1m[32mINSERT INTO "active_storage_attachments" ("name", "record_type", "record_id", "blob_id", "created_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "image"], ["record_type", "Post"], ["record_id", 7], ["blob_id", 7], ["created_at", "2020-07-06 23:04:28.870536"]]
+  [1m[36mPost Update (0.3ms)[0m  [1m[33mUPDATE "posts" SET "updated_at" = $1 WHERE "posts"."id" = $2[0m  [["updated_at", "2020-07-06 23:04:28.871422"], ["id", 7]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+[36m  Disk Storage (1.2ms) [0m[32mUploaded file to key: p3t0u6qhdq4jwd3skkm8wwrjuymz (checksum: VNwgQ701g08lAf6mg6BZgA==)[0m
+[ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: 638650a3-2566-463f-8fb7-6cc339b23eec) to Async(active_storage_analysis) with arguments: #<GlobalID:0x00007fb5b04a6e70 @uri=#<URI::GID gid://instagram/ActiveStorage::Blob/7>>
+Redirected to http://www.example.com/posts/7
+Completed 302 Found in 34ms (ActiveRecord: 4.9ms | Allocations: 31268)
+Started GET "/posts/7" for 127.0.0.1 at 2020-07-07 00:04:28 +0100
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 96)
+  [1m[36mActiveStorage::Blob Load (0.7ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [638650a3-2566-463f-8fb7-6cc339b23eec] Performing ActiveStorage::AnalyzeJob (Job ID: 638650a3-2566-463f-8fb7-6cc339b23eec) from Async(active_storage_analysis) enqueued at 2020-07-06T23:04:28Z with arguments: #<GlobalID:0x00007fb5b0401ad8 @uri=#<URI::GID gid://instagram/ActiveStorage::Blob/7>>
+[ActiveJob] [ActiveStorage::AnalyzeJob] [638650a3-2566-463f-8fb7-6cc339b23eec] [36m  Disk Storage (1.4ms) [0m[34mDownloaded file from key: p3t0u6qhdq4jwd3skkm8wwrjuymz[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [638650a3-2566-463f-8fb7-6cc339b23eec] Skipping image analysis because the mini_magick gem isn't installed
+[ActiveJob] [ActiveStorage::AnalyzeJob] [638650a3-2566-463f-8fb7-6cc339b23eec]   [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [638650a3-2566-463f-8fb7-6cc339b23eec]   [1m[36mActiveStorage::Blob Update (0.3ms)[0m  [1m[33mUPDATE "active_storage_blobs" SET "metadata" = $1 WHERE "active_storage_blobs"."id" = $2[0m  [["metadata", "{\"identified\":true,\"analyzed\":true}"], ["id", 7]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [638650a3-2566-463f-8fb7-6cc339b23eec]   [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [638650a3-2566-463f-8fb7-6cc339b23eec] Performed ActiveStorage::AnalyzeJob (Job ID: 638650a3-2566-463f-8fb7-6cc339b23eec) from Async(active_storage_analysis) in 5.38ms
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.2ms | Allocations: 4333)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2020-07-07 00:04:58 +0100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 33.3ms | ActiveRecord: 0.0ms | Allocations: 11531)
+Started GET "/posts/new" for 127.0.0.1 at 2020-07-07 00:04:58 +0100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 17.0ms | Allocations: 14029)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 18.7ms | ActiveRecord: 4.4ms | Allocations: 19822)
+Started POST "/posts" for 127.0.0.1 at 2020-07-07 00:04:58 +0100
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x00007f9fb1096110 @tempfile=#<Tempfile:/var/folders/xy/sn003gcj4tlgdp6lgr_l2zsw000gpb/T/RackMultipart20200707-32002-l854t8.jpg>, @original_filename="thomas.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"post[image]\"; filename=\"thomas.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Length: 141480\r\n">, "caption"=>"#thomas"}, "button"=>""}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("caption", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["caption", "#thomas"], ["created_at", "2020-07-06 23:04:58.117913"], ["updated_at", "2020-07-06 23:04:58.117913"]]
+  [1m[36mActiveStorage::Blob Load (0.6ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" INNER JOIN "active_storage_attachments" ON "active_storage_blobs"."id" = "active_storage_attachments"."blob_id" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 8], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 8], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Blob Create (0.3ms)[0m  [1m[32mINSERT INTO "active_storage_blobs" ("key", "filename", "content_type", "metadata", "byte_size", "checksum", "created_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["key", "2ue47iceav1r34trtv4tmcas8m3n"], ["filename", "thomas.jpg"], ["content_type", "image/jpeg"], ["metadata", "{\"identified\":true}"], ["byte_size", 141480], ["checksum", "VNwgQ701g08lAf6mg6BZgA=="], ["created_at", "2020-07-06 23:04:58.145040"]]
+  [1m[36mActiveStorage::Attachment Create (0.4ms)[0m  [1m[32mINSERT INTO "active_storage_attachments" ("name", "record_type", "record_id", "blob_id", "created_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "image"], ["record_type", "Post"], ["record_id", 8], ["blob_id", 8], ["created_at", "2020-07-06 23:04:58.145992"]]
+  [1m[36mPost Update (0.3ms)[0m  [1m[33mUPDATE "posts" SET "updated_at" = $1 WHERE "posts"."id" = $2[0m  [["updated_at", "2020-07-06 23:04:58.147097"], ["id", 8]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+[36m  Disk Storage (1.1ms) [0m[32mUploaded file to key: 2ue47iceav1r34trtv4tmcas8m3n (checksum: VNwgQ701g08lAf6mg6BZgA==)[0m
+[ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: fc805282-4131-4d1c-a1b6-66273f7ba7fc) to Async(active_storage_analysis) with arguments: #<GlobalID:0x00007f9fb03d8748 @uri=#<URI::GID gid://instagram/ActiveStorage::Blob/8>>
+Redirected to http://www.example.com/posts/8
+Completed 302 Found in 34ms (ActiveRecord: 5.3ms | Allocations: 31268)
+Started GET "/posts/8" for 127.0.0.1 at 2020-07-07 00:04:58 +0100
+  [1m[36mActiveStorage::Blob Load (0.3ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [fc805282-4131-4d1c-a1b6-66273f7ba7fc] Performing ActiveStorage::AnalyzeJob (Job ID: fc805282-4131-4d1c-a1b6-66273f7ba7fc) from Async(active_storage_analysis) enqueued at 2020-07-06T23:04:58Z with arguments: #<GlobalID:0x00007f9fb0402160 @uri=#<URI::GID gid://instagram/ActiveStorage::Blob/8>>
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"8"}
+[ActiveJob] [ActiveStorage::AnalyzeJob] [fc805282-4131-4d1c-a1b6-66273f7ba7fc] [36m  Disk Storage (2.3ms) [0m[34mDownloaded file from key: 2ue47iceav1r34trtv4tmcas8m3n[0m
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 105)
+[ActiveJob] [ActiveStorage::AnalyzeJob] [fc805282-4131-4d1c-a1b6-66273f7ba7fc] Skipping image analysis because the mini_magick gem isn't installed
+[ActiveJob] [ActiveStorage::AnalyzeJob] [fc805282-4131-4d1c-a1b6-66273f7ba7fc]   [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [fc805282-4131-4d1c-a1b6-66273f7ba7fc]   [1m[36mActiveStorage::Blob Update (0.3ms)[0m  [1m[33mUPDATE "active_storage_blobs" SET "metadata" = $1 WHERE "active_storage_blobs"."id" = $2[0m  [["metadata", "{\"identified\":true,\"analyzed\":true}"], ["id", 8]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [fc805282-4131-4d1c-a1b6-66273f7ba7fc]   [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [fc805282-4131-4d1c-a1b6-66273f7ba7fc] Performed ActiveStorage::AnalyzeJob (Job ID: fc805282-4131-4d1c-a1b6-66273f7ba7fc) from Async(active_storage_analysis) in 7.28ms
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.2ms | Allocations: 3428)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2020-07-07 00:05:45 +0100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 33.2ms | ActiveRecord: 0.0ms | Allocations: 11556)
+Started GET "/posts/new" for 127.0.0.1 at 2020-07-07 00:05:45 +0100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 18.5ms | Allocations: 14029)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 20.0ms | ActiveRecord: 4.2ms | Allocations: 19822)
+Started POST "/posts" for 127.0.0.1 at 2020-07-07 00:05:45 +0100
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x00007ff033ab7680 @tempfile=#<Tempfile:/var/folders/xy/sn003gcj4tlgdp6lgr_l2zsw000gpb/T/RackMultipart20200707-32036-x513y8.jpg>, @original_filename="thomas.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"post[image]\"; filename=\"thomas.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Length: 141480\r\n">, "caption"=>"#thomas"}, "button"=>""}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("caption", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["caption", "#thomas"], ["created_at", "2020-07-06 23:05:45.536937"], ["updated_at", "2020-07-06 23:05:45.536937"]]
+  [1m[36mActiveStorage::Blob Load (0.8ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" INNER JOIN "active_storage_attachments" ON "active_storage_blobs"."id" = "active_storage_attachments"."blob_id" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 9], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 9], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Blob Create (0.3ms)[0m  [1m[32mINSERT INTO "active_storage_blobs" ("key", "filename", "content_type", "metadata", "byte_size", "checksum", "created_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["key", "lxf9srqyi3v4q69yp7wgkntkl7hv"], ["filename", "thomas.jpg"], ["content_type", "image/jpeg"], ["metadata", "{\"identified\":true}"], ["byte_size", 141480], ["checksum", "VNwgQ701g08lAf6mg6BZgA=="], ["created_at", "2020-07-06 23:05:45.566049"]]
+  [1m[36mActiveStorage::Attachment Create (0.7ms)[0m  [1m[32mINSERT INTO "active_storage_attachments" ("name", "record_type", "record_id", "blob_id", "created_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "image"], ["record_type", "Post"], ["record_id", 9], ["blob_id", 9], ["created_at", "2020-07-06 23:05:45.567372"]]
+  [1m[36mPost Update (0.3ms)[0m  [1m[33mUPDATE "posts" SET "updated_at" = $1 WHERE "posts"."id" = $2[0m  [["updated_at", "2020-07-06 23:05:45.568693"], ["id", 9]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+[36m  Disk Storage (1.0ms) [0m[32mUploaded file to key: lxf9srqyi3v4q69yp7wgkntkl7hv (checksum: VNwgQ701g08lAf6mg6BZgA==)[0m
+[ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: 4dbc519c-b748-49aa-9d5e-48c630c95400) to Async(active_storage_analysis) with arguments: #<GlobalID:0x00007ff02ff00808 @uri=#<URI::GID gid://instagram/ActiveStorage::Blob/9>>
+Redirected to http://www.example.com/posts/9
+Completed 302 Found in 37ms (ActiveRecord: 6.3ms | Allocations: 31265)
+Started GET "/posts/9" for 127.0.0.1 at 2020-07-07 00:05:45 +0100
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Blob Load (1.6ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [4dbc519c-b748-49aa-9d5e-48c630c95400] Performing ActiveStorage::AnalyzeJob (Job ID: 4dbc519c-b748-49aa-9d5e-48c630c95400) from Async(active_storage_analysis) enqueued at 2020-07-06T23:05:45Z with arguments: #<GlobalID:0x00007ff02fe38a88 @uri=#<URI::GID gid://instagram/ActiveStorage::Blob/9>>
+  [1m[36mActiveStorage::Attachment Load (0.3ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 9], ["record_type", "Post"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Blob Load (0.8ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendered posts/show.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1623)
+[ActiveJob] [ActiveStorage::AnalyzeJob] [4dbc519c-b748-49aa-9d5e-48c630c95400] [36m  Disk Storage (11.9ms) [0m[34mDownloaded file from key: lxf9srqyi3v4q69yp7wgkntkl7hv[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [4dbc519c-b748-49aa-9d5e-48c630c95400] Skipping image analysis because the mini_magick gem isn't installed
+[ActiveJob] [ActiveStorage::AnalyzeJob] [4dbc519c-b748-49aa-9d5e-48c630c95400]   [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [4dbc519c-b748-49aa-9d5e-48c630c95400]   [1m[36mActiveStorage::Blob Update (0.6ms)[0m  [1m[33mUPDATE "active_storage_blobs" SET "metadata" = $1 WHERE "active_storage_blobs"."id" = $2[0m  [["metadata", "{\"identified\":true,\"analyzed\":true}"], ["id", 9]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [4dbc519c-b748-49aa-9d5e-48c630c95400]   [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [4dbc519c-b748-49aa-9d5e-48c630c95400] Performed ActiveStorage::AnalyzeJob (Job ID: 4dbc519c-b748-49aa-9d5e-48c630c95400) from Async(active_storage_analysis) in 16.58ms
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 19.4ms | ActiveRecord: 1.3ms | Allocations: 5526)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
